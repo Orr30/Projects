@@ -1,0 +1,63 @@
+#html{
+    background-color: teal;}
+#header{ 
+    height: 100px;
+    width: 100%;
+    border: 1px solid red;
+    position: fixed;
+    top: 0;
+    background-color: pink;}
+img{
+    float: left;
+    height: 100px;
+    width: 200px;}
+#nav-bar{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;}
+.nav-link{
+    float: right;
+    text-align: center;
+    padding: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: red;}
+body{padding-top: 110px;}
+p{
+    text-align: center;
+    color: rgb(0, 255, 0);
+    font-size: 30px;}
+#form{
+    text-align: center;}
+#email{}
+#submit{}
+#video{}
+#form{}
+#video{
+    text-align: center;}
+#pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: teal;}
+#pricing p{
+    background-color: maroon;
+    width: 200px;
+    height: 230px;}
+#features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: teal;}
+#features p{
+    background-color: maroon;
+    width: 200px;
+    height: 230px;}
+h1{
+    text-align: center;
+    color: rgb(0, 255, 0);}
+
+@media screen (min-width: 480px) {
+    
+}

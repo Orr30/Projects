@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html id="html">
+<head><link rel="stylesheet" href="CodeCampProject - Survey Form.css"></head>
+<body>
+    <header>
+        <h1 id="title">Survey</h1>
+        <p id="description">Thank You</p>
+    </header>
+    <div class="center">
+        <form id="survey-form">
+            <label for="name" id="name-label">Your Name:</label><br>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" required size="99px"><br>
+            <label for="email" id="email-label">Your Email:</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required size="99px"><br>
+            <label for="age" id="number-label">Enter Your Age: (optional)</label><br>
+            <input type="number" name="age" id="number" placeholder="Age" min="18" max="99" style="width: 690px;"><br>
+            <label for="occupation">Current Occupation Status:</label><br>
+            <select name="occupation" id="dropdown" style="width: 697px;">
+                <option value="student">Student</option>
+                <option value="graduate">Graduate</option>
+                <option value="full-time">Full Time</option>
+                <option value="unemployed">Unemployed</option>
+            </select><br>
+            <p>Would you recommend FreeCodeCamp?</p>
+            <input type="radio" name="recommend" id="yes" value="yes">
+            <label for="recommend">Yes</label><br>
+            <input type="radio" name="recommend" id="no" value="no">
+            <label for="recommend">No</label><br>
+            <input type="radio" name="recommend" id="maybe" value="maybe">
+            <label for="recommend">Maybe</label><br>
+            <p>Check all that apply:</p>
+            <input type="checkbox" name="apply" id="male" value="male">
+            <label for="apply">Male</label><br>
+            <input type="checkbox" name="apply" id="female" value="female">
+            <label for="apply">Female</label><br>
+            <input type="checkbox" name="apply" id="white" value="white">
+            <label for="apply">White</label><br>
+            <input type="checkbox" name="apply" id="black" value="black">
+            <label for="apply">Black</label><br>
+            <input type="checkbox" name="apply" id="asian" value="asian">
+            <label for="apply">Asian</label><br>
+            <input type="checkbox" name="apply" id="hispanic" value="hispanic">
+            <label for="apply">Hispanic</label><br><br>
+            <label for="comments">Additional Comments:</label><br>
+            <textarea name="comments" id="comments" cols="92" rows="10" wrap="hard" placeholder="Enter additional comments here."></textarea><br>
+            <button type="submit" id="submit">Submit Form</button>
+        </form>
+    </div>
+</body>
+</html>

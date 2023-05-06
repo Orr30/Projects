@@ -1,0 +1,42 @@
+#html{
+    background-color: darkorange;}
+#main-doc{
+    float: right;}
+.main-section{
+    background-color: teal;
+    margin-left: 105px;}
+#What_is_Lorem_Ipsum{}
+#Why_do_we_use_it{}
+#Where_does_it_come_from{}
+#Where_can_I_get_some{}
+#Lorem_Ipsum{}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    max-width: 100px;
+    top: 0px;
+    bottom: 0px;
+    position: fixed;}
+#nav-header{
+    color: grey;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bolder;}
+.nav-link{
+    color: white;
+    background-color: crimson;}
+code{
+    background-color: gray;}
+
+
+@media screen and (max-width: 480px) {
+    #navbar {
+        display: none;
+    }
+}
+@media screen (min-width: 480px) {
+    #navbar {
+        float: left;
+    }    
+}
